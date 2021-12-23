@@ -27,14 +27,14 @@ Simple ecommerce project made in non OOP PHP.
 
 ## Home
 
-<img src="./screenshots/Home.png" width="600px">
+<img src="./screenshots/Home.png">
 
 ## User Stuff
 
-<img src="./screenshots/User_things.png" width="600px">
+<img src="./screenshots/User_things.png">
 
 # Admin Stuff
 
-<img src="./screenshots/Admin_things.png" width="600px">
+<img src="./screenshots/Admin_things.png">
 
 # Thank You.
