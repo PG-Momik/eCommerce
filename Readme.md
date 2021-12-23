@@ -33,7 +33,7 @@ Simple ecommerce project made in non OOP PHP.
 
 <img src="./screenshots/User_things.png">
 
-# Admin Stuff
+## Admin Stuff
 
 <img src="./screenshots/Admin_things.png">
 
