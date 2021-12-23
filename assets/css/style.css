@@ -1,0 +1,271 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --line-height : 1.5rem;
+    --font-weight: bold;
+    --color1: #262626 ;
+    --color2: #fff;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: var(--color1);
+}
+/* main section */
+.main{
+    padding: 0;
+}
+.this-is-nav{
+    padding: 0 2%;
+}
+.carousel-item{
+    margin-top: 1.8vh;
+    width: 80vw;
+    margin-left: 9.4vw;
+}
+.carousel-item img{
+    width: 100%;
+    height: 90vh;
+}
+/* border:1px solid white; background:red;color: white; min-width:12px; min-height: 12px; */
+
+/* Features section */
+#features{
+    margin-top: 1.8vh ;
+    background: var(--color2);
+    text-align: center;
+    line-height: var(--line-height);
+    padding-bottom: 5%;
+}
+#features h2{
+    font-weight: var(--font-weight);
+    font-size: 2.8rem;
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+.feature-icons{
+    font-size: 5rem;
+    color: var(--color1);
+    padding-bottom: 3%;
+}
+
+/* Pricing */
+#price{
+    padding-top: 2vh;
+    width: 95%;
+    margin: auto;
+}
+.price-heading{
+    color: var(--color2);
+    text-align: center;
+    font-size: 2.8rem;
+    margin: 1% 0;
+}
+
+.this-is-card{
+    min-height: 365px;
+}
+
+.order-now-btn:nth-child(odd){
+    margin-top: 55px;
+}
+
+#payment{
+    margin-top: 50px;
+    background: var(--color2);
+    text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+}
+
+.payment-heading{
+    font-size: 2.8rem;
+    padding-bottom: 3vh;
+}
+.payment-div{
+    padding-inline: 2px;
+}
+
+.payment-logo{
+    max-width: 180px;
+    width: 180px;
+    max-height: 90px;
+    height: 90px;
+    border: 1px solid black;
+}
+
+#footer{
+    width: 95%;
+    margin: auto;
+    text-align: center;
+}
+.footer-heading{
+    padding-top:5vh;
+    color: var(--color2);
+}
+.socials{ 
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* view.php */
+.product-display{
+    width: 80%;
+    margin: auto;
+    border: 2px solid black;
+    text-align: center;
+}
+.product-image{
+    border: 2px solid red;
+    height: auto;
+    text-align: center;
+
+}
+.product-img{
+    max-height:300px;
+}
+.product-description-box{
+    justify-content: center;
+    margin: 0 auto;
+}
+.product-description{
+    margin-inline: 50px;
+    box-shadow: 5px 10px 5px grey;
+}
+
+.checkbox-round {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox-round:checked {
+    background-color: gray;
+}
+
+/* utilities */
+.hidden{
+    display: none;
+}
+
+.bordered{
+    border: 1px solid black;
+}
+
+.shadow{
+    box-shadow: 5px 10px 5px grey;
+
+}
+
+#cart-count{
+    background:red;
+    color: white; 
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 40%;
+    padding-left:4px;
+    padding-right:4px;
+}
+
+
+
+/* Register */
+#register-container{
+    padding: 5vh 5vw;
+}
+#register-container h1, #register-container p{
+    text-align: center;
+
+}
+
+#r-form-container{
+    padding: 2vh 6vw 2vh 6vw;
+    background: white;
+}
+
+/* Login */
+#login-container{
+    padding: 5vh 5vw;   
+}
+#login-container h1, #login-container p{
+    text-align: center;
+
+}
+#l-form-container{
+    padding: 2vh 6vw 2vh 6vw;
+}
+
+/* Account */
+/* account sidebar */
+.divv{
+    display: flex;
+}
+/* admin dashboard contents */
+.admin-batta{
+    display: flex;
+    flex-direction: row;
+}
+.sidenav{
+    height:100vh;
+    width: 15vw;
+    background-color: #111;
+}
+.sidenav a{
+    font-size: 1.2rem;
+    color: #818181;
+}
+/* account-content */
+.account-content{
+    width: 84vw;
+}
+.admin-header{
+    margin-left: 6vw;
+    margin-top: 5vh;
+}
+.admin-batta-right{
+    width: 86%;
+    margin: 2vh auto;
+}
+
+.user-batta{
+    width: 86%;
+    margin: 2vh auto;
+}
+
+
+/* testimonial */
+.testimonial-profile{
+    text-align: center;
+}
+.testimonial-image{
+    height: 150px;
+    width: 150px;
+    box-shadow: 0px 0px 10px 5px grey;
+    margin-bottom: 2.5vh;
+    
+    
+}
+
+
+
+
+
+
+/*Cart */
+#cart-container{
+    padding: 5vh 5vw;
+}
+
+/* tr */
